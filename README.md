@@ -3,7 +3,6 @@ Machine Learning is a branch of Artificial Intelligence (AI) that gives computer
 
 
 🛠️ How to Use ML?
-✅ Step-by-Step in Practice:
 1. Collect Data
 ~  Real-world examples (images, text, numbers, audio, etc.)
 
@@ -38,7 +37,7 @@ Machine Learning is a branch of Artificial Intelligence (AI) that gives computer
 9. Works with Unstructured Data	:- Can analyze text, speech, images, and video data.
 
 
-How To work
+⚙️How To work ?
 
 ![ml](https://github.com/user-attachments/assets/a0444459-1ca5-48a6-bfdc-e2e0c3120a43)
 
