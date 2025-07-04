@@ -5,13 +5,11 @@
 📚 Think of it like using flashcards to teach a child:  
 You show a picture and say “This is a cat.” The child learns to associate the image with the correct word.
 
----
-
-## 🛠️ **How to Use Supervised Learning?**
+## 🛠️ How to Use Supervised Learning?
 
 1. **Collect Labeled Data**  
    ~ Real-world examples with inputs and correct outputs  
-   📸 *Example:* Images of animals labeled as **Cat**, **Dog**, **Rabbit**
+   📸 Example: Images of animals labeled as **Cat**, **Dog**, **Rabbit**
 
 2. **Split the Dataset**  
    ~ Divide into:  
@@ -20,8 +18,8 @@ You show a picture and say “This is a cat.” The child learns to associate th
 
 3. **Choose an Algorithm**  
    ~ Based on your task:  
-   📦 *Classification* → Logistic Regression, SVM, Random Forest  
-   📈 *Regression* → Linear Regression, SVR
+   📦 Classification → Logistic Regression, SVM, Random Forest  
+   📈 Regression → Linear Regression, SVR
 
 4. **Train the Model**  
    ~ Feed the labeled data so it can learn the patterns
@@ -35,9 +33,7 @@ You show a picture and say “This is a cat.” The child learns to associate th
    📉 **Mean Squared Error (MSE)** (for regression)  
    🧮 **F1-score** (for imbalanced data)
 
----
-
-## ❓ **Why Do We Use Supervised Learning?**
+## ❓ Why Do We Use Supervised Learning?
 
 1. 📊 **Predict Outcomes**  
    ~ Stock prices, weather forecasts, exam scores
@@ -51,8 +47,6 @@ You show a picture and say “This is a cat.” The child learns to associate th
 4. 🎯 **High Accuracy**  
    ~ Very effective when trained with large and clean labeled data
 
----
-
-## ⚙️ **How Does Supervised Learning Work?**
+## ⚙️ How Does Supervised Learning Work?
 
 ![sl](https://github.com/user-attachments/assets/d872c2be-aaa5-4f1d-b4a0-c078bdb3a15e)
