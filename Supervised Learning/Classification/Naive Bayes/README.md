@@ -1,53 +1,70 @@
-🤖 What is Naive Bayes?
-Naive Bayes is a type of Supervised Learning algorithm based on Bayes' Theorem, used mainly for classification tasks.
-It assumes that all features are independent of each other — that’s why it’s called “naive.”
+# 🤖 What is Naive Bayes?
 
-📚 Think of it like this:
-If you know someone likes action movies and popcorn, Naive Bayes assumes their love for action movies and popcorn are unrelated — even if they aren’t in real life.
+**Naive Bayes** is a type of **Supervised Learning** algorithm based on **Bayes' Theorem**, primarily used for **classification tasks**.  
+It assumes that all features are **independent** of one another — which is why it’s called “**naive**.”
 
+📚 Think of it like this:  
+If someone likes action movies 🎬 and popcorn 🍿, Naive Bayes assumes these preferences are unrelated — even if they’re not in real life.
 
-🛠️ How to Use Naive Bayes?
-Collect Labeled Data
-~ Data where each input is labeled with its correct category
-📄 Example: Emails labeled as Spam or Not Spam
+---
 
-Preprocess the Data
-~ Clean and transform into numerical format
-🧹 Example: Convert text to word frequencies using Bag of Words or TF-IDF
+## 🛠️ How to Use Naive Bayes?
 
-Split the Dataset
-~ Divide into training and testing parts
-📊 80% training, 20% testing is common
+1. **Collect Labeled Data**  
+   ~ Each input must be paired with its correct label  
+   📄 Example: Emails labeled as **Spam** or **Not Spam**
 
-Train the Naive Bayes Model
-~ Learn probabilities of features given each class
-📈 Uses Bayes’ Theorem to calculate class probabilities
+2. **Preprocess the Data**  
+   ~ Clean and convert to numerical format  
+   🧹 Example: Use **Bag of Words** or **TF-IDF** to transform text
 
-Make Predictions
-~ Given a new input, calculate which class is most probable
+3. **Split the Dataset**  
+   ~ Divide into:  
+   📊 **Training Set** (e.g., 80%)  
+   🧪 **Test Set** (e.g., 20%)
 
-Evaluate Performance
-~ Use metrics like:
-✅ Accuracy
-⚖️ Precision & Recall
-🧮 Confusion Matrix
+4. **Train the Naive Bayes Model**  
+   ~ Learn probabilities of features for each class  
+   📈 Applies **Bayes’ Theorem** to model class likelihoods
 
+5. **Make Predictions**  
+   ~ For new input, calculate class with highest probability
 
-❓ Why Do We Use Naive Bayes?
-⚡ Very Fast & Efficient
-~ Perfect for large datasets or real-time applications
+6. **Evaluate Performance**  
+   ~ Use metrics like:  
+   ✅ **Accuracy**  
+   ⚖️ **Precision & Recall**  
+   🧮 **Confusion Matrix**
 
-📬 Great for Text Classification
-~ Used in Spam Detection, Sentiment Analysis, News Categorization
+---
 
-🧠 Performs Well on Small Datasets
-~ Even with limited data, it can be very accurate
+## ❓ Why Do We Use Naive Bayes?
 
-🛠️ Easy to Implement
-~ Simple math, less tuning, and high interpretability
+1. ⚡ **Very Fast & Efficient**  
+   ~ Great for large-scale and real-time applications
 
+2. 📬 **Excellent for Text Classification**  
+   ~ Ideal for spam detection, sentiment analysis, document tagging
 
-⚙️ How Does Naive Bayes Work?
+3. 🧠 **Performs Well on Small Datasets**  
+   ~ Effective even with limited training data
+
+4. 🛠️ **Simple & Easy to Implement**  
+   ~ Requires minimal computation and parameter tuning
+
+---
+
+## ⚙️ How Does Naive Bayes Work?
+
+Naive Bayes uses **Bayes’ Theorem** to compute the probability of a class given input data:
+
+\[
+P(Class|Data) = \frac{P(Data|Class) \times P(Class)}{P(Data)}
+\]
+
+🧪 It multiplies the individual probabilities of each feature assuming they’re independent, and selects the class with the **highest posterior probability**.
 
 ![nv](https://github.com/user-attachments/assets/6990100f-baee-4437-8461-931f19aa1f6d)
+
+---
 
