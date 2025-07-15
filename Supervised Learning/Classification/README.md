@@ -63,4 +63,5 @@ You read the content and decide whether it’s **Spam** or **Not Spam**.
 ## ⚙️ How Classification Works
 
 <img width="509" height="283" alt="classifier" src="https://github.com/user-attachments/assets/b5ba8b82-a7b7-4f11-9339-7f4e1606e615" />
+
 ---
