@@ -47,10 +47,6 @@ It builds the tree using **chi-square tests** to determine the best splits, espe
 
 ## ⚙️ **How Does CHAID Work?**
 
-![CHAID](https://upload.wikimedia.org/wikipedia/commons/e/e1/Decision_tree_model.png)
-
-> CHAID builds a decision tree using the following process:
-
 1. **Chi-Square Test on Each Feature**  
    ~ For each predictor, CHAID runs a chi-square test to determine significance with the target variable.
 
