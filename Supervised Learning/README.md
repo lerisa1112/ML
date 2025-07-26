@@ -50,3 +50,4 @@ You show a picture and say “This is a cat.” The child learns to associate th
 ## ⚙️ How Does Supervised Learning Work?
 
 ![sl](https://github.com/user-attachments/assets/d872c2be-aaa5-4f1d-b4a0-c078bdb3a15e)
+---
