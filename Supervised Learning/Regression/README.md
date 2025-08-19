@@ -1,5 +1,1 @@
-
-what is regression 
-it is regression 
-regression 
-regression 
+Regression simply means finding a relationship between variables, usually to predict one variable (the dependent variable) based on others (independent variables).
